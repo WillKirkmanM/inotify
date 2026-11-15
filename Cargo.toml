@@ -1,0 +1,9 @@
+[package]
+name = "inotify"
+version = "0.1.0"
+edition = "2024"
+description = "The inotify Command Streams Linux File and Directory Change Events, Preserving Rename Cookies to Correlate Moves"
+keywords = ["parsonlabs", "rust", "linux", "syscalls", "inotify"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
